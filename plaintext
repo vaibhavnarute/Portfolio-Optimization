@@ -1,0 +1,19 @@
+Entire structure of the project:
+├── data/                      # For storing financial data
+├── models/                    # Different optimization models
+│   ├── markowitz.py           # MPT implementation
+│   ├── monte_carlo.py         # Monte Carlo simulations
+│   ├── reinforcement.py       # RL-based optimization
+│   └── factor_models.py       # Factor-based models (XGBoost/RF)
+├── utils/                     # Utility functions
+│   ├── data_loader.py         # Functions to fetch and process data
+│   ├── performance.py         # Performance metrics calculation
+│   └── visualization.py       # Plotting functions
+├── api/                       # FastAPI implementation
+│   ├── main.py                # API entry point
+│   └── endpoints/             # API endpoints
+├── notebooks/                 # Jupyter notebooks for exploration
+├── tests/                     # Unit tests
+├── requirements.txt           # Project dependencies
+├── config.py                  # Configuration settings
+└── main.py                    # Main entry point

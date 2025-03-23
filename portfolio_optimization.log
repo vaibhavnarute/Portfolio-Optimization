@@ -1,0 +1,128 @@
+2025-03-23 18:06:52,015 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:08:52,690 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:12:43,401 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:14:56,337 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:16:16,513 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:16:17,580 - __main__ - INFO - Risk metrics saved to results\risk_metrics.csv
+2025-03-23 18:16:17,598 - __main__ - INFO - 
+Maximum Sharpe Ratio Portfolio:
+2025-03-23 18:16:17,599 - __main__ - INFO - AAPL: 0.5007
+2025-03-23 18:16:17,599 - __main__ - INFO - AMZN: 0.0000
+2025-03-23 18:16:17,599 - __main__ - INFO - GOOGL: 0.0000
+2025-03-23 18:16:17,599 - __main__ - INFO - META: 0.0000
+2025-03-23 18:16:17,599 - __main__ - INFO - MSFT: 0.4993
+2025-03-23 18:16:17,600 - __main__ - INFO - Expected Return: 0.2558
+2025-03-23 18:16:17,600 - __main__ - INFO - Expected Volatility: 0.2752
+2025-03-23 18:16:17,600 - __main__ - INFO - Sharpe Ratio: 0.8569
+2025-03-23 18:16:17,607 - __main__ - INFO - 
+Minimum Volatility Portfolio:
+2025-03-23 18:16:17,607 - __main__ - INFO - AAPL: 0.3026
+2025-03-23 18:16:17,607 - __main__ - INFO - AMZN: 0.0962
+2025-03-23 18:16:17,607 - __main__ - INFO - GOOGL: 0.2462
+2025-03-23 18:16:17,607 - __main__ - INFO - META: 0.0000
+2025-03-23 18:16:17,608 - __main__ - INFO - MSFT: 0.3549
+2025-03-23 18:16:17,608 - __main__ - INFO - Expected Return: 0.2267
+2025-03-23 18:16:17,608 - __main__ - INFO - Expected Volatility: 0.2671
+2025-03-23 18:16:17,608 - __main__ - INFO - Sharpe Ratio: 0.7738
+2025-03-23 18:16:17,611 - __main__ - INFO - 
+Discrete Allocation (Max Sharpe) for $10000 portfolio:
+2025-03-23 18:16:17,611 - __main__ - INFO - AAPL: 22 shares ($4801.94)
+2025-03-23 18:16:17,611 - __main__ - INFO - MSFT: 13 shares ($5086.38)
+2025-03-23 18:16:17,611 - __main__ - INFO - Remaining cash: $111.68
+2025-03-23 18:16:17,611 - __main__ - INFO - 
+Discrete Allocation (Min Volatility) for $10000 portfolio:
+2025-03-23 18:16:17,612 - __main__ - INFO - MSFT: 9 shares ($3521.34)
+2025-03-23 18:16:17,612 - __main__ - INFO - AAPL: 13 shares ($2837.51)
+2025-03-23 18:16:17,612 - __main__ - INFO - GOOGL: 15 shares ($2459.85)
+2025-03-23 18:16:17,612 - __main__ - INFO - AMZN: 5 shares ($981.05)
+2025-03-23 18:16:17,612 - __main__ - INFO - Remaining cash: $200.25
+2025-03-23 18:16:18,713 - __main__ - INFO - Efficient frontier plot saved to results\efficient_frontier.png
+2025-03-23 18:16:18,997 - __main__ - INFO - Correlation matrix plot saved to results\correlation_matrix.png
+2025-03-23 18:16:19,328 - __main__ - INFO - Prices plot saved to results\prices.png
+2025-03-23 18:16:19,691 - __main__ - INFO - Returns plot saved to results\returns.png
+2025-03-23 18:16:20,622 - __main__ - INFO - Rolling metrics plot saved to results\rolling_metrics.png
+2025-03-23 18:16:58,550 - __main__ - INFO - Running Monte Carlo simulation for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:18:48,971 - __main__ - INFO - Running Monte Carlo simulation for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:18:49,112 - __main__ - INFO - 
+Monte Carlo Simulation Results:
+2025-03-23 18:18:49,112 - __main__ - INFO - Mean Final Portfolio Value: $12885.08
+2025-03-23 18:18:49,113 - __main__ - INFO - Median Final Portfolio Value: $12287.99
+2025-03-23 18:18:49,113 - __main__ - INFO - Min Final Portfolio Value: $5748.30
+2025-03-23 18:18:49,113 - __main__ - INFO - Max Final Portfolio Value: $29288.90
+2025-03-23 18:18:49,113 - __main__ - INFO - 5th Percentile: $7842.23
+2025-03-23 18:18:49,113 - __main__ - INFO - 95th Percentile: $19293.15
+2025-03-23 18:18:49,113 - __main__ - INFO - Probability of Profit: 79.70%
+2025-03-23 18:18:50,682 - __main__ - INFO - Monte Carlo simulation plot saved to results\monte_carlo_simulation.png
+2025-03-23 18:18:50,991 - __main__ - INFO - Monte Carlo histogram plot saved to results\monte_carlo_histogram.png
+2025-03-23 18:20:41,121 - __main__ - INFO - Running factor model for SPY using factors ['VTI', 'BND', 'GLD', 'VNQ', 'VWO']...
+2025-03-23 18:21:57,907 - __main__ - INFO - Running factor model for SPY using factors ['VTI', 'BND', 'GLD', 'VNQ', 'VWO']...
+2025-03-23 18:22:01,939 - __main__ - INFO - 
+Factor Model Evaluation:
+2025-03-23 18:22:01,939 - __main__ - INFO - R-squared: 0.9870
+2025-03-23 18:22:01,940 - __main__ - INFO - Mean Absolute Error: 0.0007
+2025-03-23 18:22:01,940 - __main__ - INFO - Root Mean Squared Error: 0.0009
+2025-03-23 18:22:01,951 - __main__ - INFO - Feature importances saved to results\feature_importances.csv
+2025-03-23 18:22:01,961 - __main__ - INFO - Predictions saved to results\predictions.csv
+2025-03-23 18:22:02,284 - __main__ - INFO - Actual vs predicted plot saved to results\actual_vs_predicted.png
+2025-03-23 18:22:02,554 - __main__ - INFO - Feature importances plot saved to results\feature_importances.png
+2025-03-23 18:22:57,098 - __main__ - INFO - Training reinforcement learning agent for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:22:57,101 - __main__ - INFO - Training RL agent (this may take a while)...
+2025-03-23 18:26:07,964 - __main__ - INFO - Training reinforcement learning agent for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:26:07,967 - __main__ - INFO - Training RL agent (this may take a while)...
+2025-03-23 18:27:06,379 - __main__ - INFO - Training reinforcement learning agent for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:27:06,384 - __main__ - INFO - Training RL agent (this may take a while)...
+2025-03-23 18:28:06,831 - __main__ - INFO - Training reinforcement learning agent for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:28:06,835 - __main__ - INFO - Training RL agent (this may take a while)...
+2025-03-23 18:31:03,917 - __main__ - INFO - Training results saved to results\rl_training_results.csv
+2025-03-23 18:31:03,917 - __main__ - INFO - Backtesting RL agent...
+2025-03-23 18:47:20,660 - __main__ - INFO - Running Markowitz optimization for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:47:21,913 - __main__ - INFO - Risk metrics saved to results\risk_metrics.csv
+2025-03-23 18:47:21,925 - __main__ - INFO - 
+Maximum Sharpe Ratio Portfolio:
+2025-03-23 18:47:21,925 - __main__ - INFO - AAPL: 0.5007
+2025-03-23 18:47:21,926 - __main__ - INFO - AMZN: 0.0000
+2025-03-23 18:47:21,926 - __main__ - INFO - GOOGL: 0.0000
+2025-03-23 18:47:21,926 - __main__ - INFO - META: 0.0000
+2025-03-23 18:47:21,927 - __main__ - INFO - MSFT: 0.4993
+2025-03-23 18:47:21,927 - __main__ - INFO - Expected Return: 0.2558
+2025-03-23 18:47:21,928 - __main__ - INFO - Expected Volatility: 0.2752
+2025-03-23 18:47:21,928 - __main__ - INFO - Sharpe Ratio: 0.8569
+2025-03-23 18:47:21,937 - __main__ - INFO - 
+Minimum Volatility Portfolio:
+2025-03-23 18:47:21,938 - __main__ - INFO - AAPL: 0.3026
+2025-03-23 18:47:21,939 - __main__ - INFO - AMZN: 0.0962
+2025-03-23 18:47:21,939 - __main__ - INFO - GOOGL: 0.2462
+2025-03-23 18:47:21,940 - __main__ - INFO - META: 0.0000
+2025-03-23 18:47:21,940 - __main__ - INFO - MSFT: 0.3549
+2025-03-23 18:47:21,941 - __main__ - INFO - Expected Return: 0.2267
+2025-03-23 18:47:21,941 - __main__ - INFO - Expected Volatility: 0.2671
+2025-03-23 18:47:21,942 - __main__ - INFO - Sharpe Ratio: 0.7738
+2025-03-23 18:47:21,945 - __main__ - INFO - 
+Discrete Allocation (Max Sharpe) for $10000 portfolio:
+2025-03-23 18:47:21,945 - __main__ - INFO - AAPL: 22 shares ($4801.94)
+2025-03-23 18:47:21,945 - __main__ - INFO - MSFT: 13 shares ($5086.38)
+2025-03-23 18:47:21,946 - __main__ - INFO - Remaining cash: $111.68
+2025-03-23 18:47:21,946 - __main__ - INFO - 
+Discrete Allocation (Min Volatility) for $10000 portfolio:
+2025-03-23 18:47:21,948 - __main__ - INFO - MSFT: 9 shares ($3521.34)
+2025-03-23 18:47:21,948 - __main__ - INFO - AAPL: 13 shares ($2837.51)
+2025-03-23 18:47:21,949 - __main__ - INFO - GOOGL: 15 shares ($2459.85)
+2025-03-23 18:47:21,949 - __main__ - INFO - AMZN: 5 shares ($981.05)
+2025-03-23 18:47:21,950 - __main__ - INFO - Remaining cash: $200.25
+2025-03-23 18:47:22,919 - __main__ - INFO - Efficient frontier plot saved to results\efficient_frontier.png
+2025-03-23 18:47:23,214 - __main__ - INFO - Correlation matrix plot saved to results\correlation_matrix.png
+2025-03-23 18:47:23,526 - __main__ - INFO - Prices plot saved to results\prices.png
+2025-03-23 18:47:24,134 - __main__ - INFO - Returns plot saved to results\returns.png
+2025-03-23 18:47:26,078 - __main__ - INFO - Rolling metrics plot saved to results\rolling_metrics.png
+2025-03-23 18:47:43,272 - __main__ - INFO - Running Monte Carlo simulation for ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']...
+2025-03-23 18:47:43,410 - __main__ - INFO - 
+Monte Carlo Simulation Results:
+2025-03-23 18:47:43,410 - __main__ - INFO - Mean Final Portfolio Value: $13107.85
+2025-03-23 18:47:43,410 - __main__ - INFO - Median Final Portfolio Value: $12696.49
+2025-03-23 18:47:43,411 - __main__ - INFO - Min Final Portfolio Value: $4255.76
+2025-03-23 18:47:43,411 - __main__ - INFO - Max Final Portfolio Value: $29608.34
+2025-03-23 18:47:43,411 - __main__ - INFO - 5th Percentile: $8039.21
+2025-03-23 18:47:43,411 - __main__ - INFO - 95th Percentile: $19647.03
+2025-03-23 18:47:43,411 - __main__ - INFO - Probability of Profit: 79.20%
+2025-03-23 18:47:44,942 - __main__ - INFO - Monte Carlo simulation plot saved to results\monte_carlo_simulation.png
+2025-03-23 18:47:45,193 - __main__ - INFO - Monte Carlo histogram plot saved to results\monte_carlo_histogram.png

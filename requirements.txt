@@ -1,0 +1,32 @@
+# Data handling
+pandas
+numpy
+yfinance
+alpha_vantage
+
+# Portfolio optimization
+pyportfolioopt
+quantlib-python
+backtrader
+
+# Machine learning
+scikit-learn
+#ray[rllib]
+#tensorflow
+gymnasium
+
+# Visualization
+matplotlib
+plotly
+seaborn
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# Testing
+pytest
+
+# Utilities
+tqdm
