@@ -1,16 +1,15 @@
 # Portfolio Optimization Project
 
+## Overview
 This project implements various portfolio optimization strategies to help investors make data-driven decisions about asset allocation. It includes traditional methods like Markowitz optimization, Monte Carlo simulations, factor models, and modern reinforcement learning approaches.
 
 ## Features
-
-- **Markowitz Portfolio Optimization**: Implements the classic mean-variance optimization to find efficient portfolios
-- **Monte Carlo Simulation**: Simulates thousands of possible portfolio outcomes to understand risk
-- **Factor Model Analysis**: Analyzes how different market factors influence asset returns
-- **Reinforcement Learning Optimization**: Uses deep reinforcement learning to dynamically optimize portfolios
+- **Markowitz Portfolio Optimization**: Implements the classic mean-variance optimization to find efficient portfolios.
+- **Monte Carlo Simulation**: Simulates thousands of possible portfolio outcomes to understand risk.
+- **Factor Model Analysis**: Analyzes how different market factors influence asset returns.
+- **Reinforcement Learning Optimization**: Uses deep reinforcement learning to dynamically optimize portfolios.
 
 ## Project Structure
-
 ```
 portfolio_optimization/
 ├── data/                  # Data storage directory
@@ -32,91 +31,79 @@ portfolio_optimization/
 ```
 
 ## Installation
-
-1. Clone the repository:
+### Clone the repository:
 ```bash
 git clone https://github.com/yourusername/portfolio_optimization.git
 cd portfolio_optimization
 ```
 
-2. Create a virtual environment and install dependencies:
+### Create a virtual environment and install dependencies:
 ```bash
 python -m venv venv
-venv\Scripts\activate
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
 ## Usage
-
-### Markowitz Optimization
-
+### **Markowitz Optimization**
 ```bash
 python main.py --mode markowitz --tickers AAPL MSFT AMZN GOOGL META --start_date 2018-01-01
 ```
 
-### Monte Carlo Simulation
-
+### **Monte Carlo Simulation**
 ```bash
 python main.py --mode monte_carlo --tickers AAPL MSFT AMZN GOOGL META --start_date 2018-01-01
 ```
 
-### Factor Model Analysis
-
+### **Factor Model Analysis**
 ```bash
 python main.py --mode factor --ticker SPY --factors VTI BND GLD VNQ VWO --start_date 2018-01-01
 ```
 
-### Reinforcement Learning Optimization
-
+### **Reinforcement Learning Optimization**
 ```bash
 python main.py --mode reinforcement --tickers AAPL MSFT AMZN GOOGL META --start_date 2018-01-01
 ```
 
-### Generate Report
-
+### **Generate Report**
 ```bash
 python generate_report.py
 ```
 
 ## Results
-
 The project generates various visualizations and metrics to help understand portfolio performance:
-
-- Efficient frontier plots
-- Correlation matrices
-- Monte Carlo simulation distributions
-- Reinforcement learning training progress
-- Performance comparisons between different methods
+- **Efficient frontier plots**
+- **Correlation matrices**
+- **Monte Carlo simulation distributions**
+- **Reinforcement learning training progress**
+- **Performance comparisons between different methods**
 
 ## Dependencies
-
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scipy
-- scikit-learn
-- gymnasium
-- stable-baselines3
-- yfinance
-- tqdm
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `scipy`
+- `scikit-learn`
+- `gymnasium`
+- `stable-baselines3`
+- `yfinance`
+- `tqdm`
 
 ## Future Work
-
-- Implement more advanced reinforcement learning algorithms
-- Add support for more asset classes (bonds, commodities, etc.)
-- Create a web interface for easier interaction
-- Implement a backtesting framework for out-of-sample validation
+- Implement more advanced reinforcement learning algorithms.
+- Add support for more asset classes (bonds, commodities, etc.).
+- Create a web interface for easier interaction.
+- Implement a backtesting framework for out-of-sample validation.
 
 ## License
-
 MIT
 
 ## Contributors
-
-- Your Name
+Your Name
 
 ## Acknowledgements
+- **Modern Portfolio Theory** by Harry Markowitz
+- **Reinforcement Learning: An Introduction** by Richard S. Sutton and Andrew G. Barto
 
-- Modern Portfolio Theory by Harry Markowitz
-- Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
